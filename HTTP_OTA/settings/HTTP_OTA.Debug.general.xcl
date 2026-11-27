@@ -1,0 +1,15 @@
+C:\iar\ewarm-9.70.2\arm\bin\armproc.dll
+
+ C:\iar\ewarm-9.70.2\arm\bin\armstlink.dll
+
+ D:\Work\Nippon_Neoway_4G\HTTP_OTA\Debug\Exe\HTTP_OTA.out
+
+ --plugin=C:\iar\ewarm-9.70.2\arm\bin\armLibSupportUniversal.dll
+
+ --device_macro=C:\iar\ewarm-9.70.2\arm/config/debugger/ST/STM32F0xx.dmac
+
+ --flash_loader=C:\iar\ewarm-9.70.2\arm/config/flashloader/ST/FlashSTM32F09xxC.board
+
+ 
+
+

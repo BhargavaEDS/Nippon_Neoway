@@ -1,0 +1,378 @@
+AT+CFUN=0                                                                       
+OK                                                                              
+                                                                                
++STKPCI: 0, D009810301260182028182                                              
+                                                                                
++PBREADY                                                                        
+AT+COPS?                                                                        
++COPS: 2                                                                        
+OK                                                                              
+                                                                                
++ESMCAUSE:26                                                                    
+AT+CEREG?                                                                       
++CEREG: 0,3                                                                     
+OK                                                                              
+AT+COPS?                                                                        
++COPS: 2                                                                        
+OK                                                                              
+AT+CEREG?                                                                       
++CEREG: 0,3                                                                     
+OK                                                                              
+AT+COPS?                                                                        
++COPS: 2                                                                        
+OK                                                                              
+AT+CEREG?                                                                       
++CEREG: 0,3                                                                     
+OK                                                                              
+AT+COPS?                                                                        
++COPS: 0,0,"IND airtel",7                                                       
+OK                                                                              
+AT+CFUN=1,1                                                                     
+OK                                                                              
+                                                                                
++PBREADY                                                                        
+                                                                                
++STKPCI: 0, D009810301260182028182                                              
+AT+STKEN=1                                                                      
+OK                                                                              
+AT+STKM=1                                                                       
+OK                                                                              
+AT+STKTR="810301250082028281830100"                                             
++STKTR: 0                                                                       
+OK                                                                              
+                                                                                
++STKPCI: 0, D009810301260082028182                                              
+AT+STKENV="D30782020181900101"                                                  
++STKENV: 0                                                                      
+OK                                                                              
+AT+STKTR="810301240082028281830100900102"                                       
++STKTR: 0                                                                       
+OK                                                                              
+                                                                                
++STKPCI: 0, D00E810301050082028182990303090A                                    
+AT+STKTR="810301210082028281830100"                                             
++STKTR: 0                                                                       
+OK                                                                              
+                                                                                
++STKPCI: 0, D00D8103010300820281828402010F                                      
+AT+CFUN=1,1                                                                     
+OK                                                                              
+                                                                                
++STKPCI: 0, D009810301260182028182                                              
+                                                                                
++PBREADY                                                                        
+AT+CFUN=0                                                                       
+OK                                                                              
+AT+CFUN=1                                                                       
+OK                                                                              
+AT+CRSM=176,28539,0,0,12                                                        
++CRSM: 144,0,"FFFFFFFFFFFFFFFFFFFFFFFF"                                         
+OK                                                                              
+AT+CRSM=214,28539,0,0,12,"FFFFFFFFFFFFFFFFFFFFFFFF"                             
++CRSM: 144,0                                                                    
+OK                                                                              
+AT+STKEN?                                                                       
++STKEN: 1                                                                       
+OK                                                                              
+ATI                                                                             
+NEOWAY                                                                          
+N58C                                                                            
+V001                                                                            
+OK                                                                              
+AT+CIMI                                                                         
++CIMI: 404100661415678                                                          
+OK                                                                              
+AT+IFC=0,0                                                                      
+OK                                                                              
+AT+CSMS=1                                                                       
++CSMS: 1,1,1,1                                                                  
+OK                                                                              
+AT+CMGF=1                                                                       
+OK                                                                              
+AT+CSCS="IRA"                                                                   
+OK                                                                              
+AT+CSMP=17,167,0,241                                                            
+OK                                                                              
+AT+CPMS="SM","SM","SM"                                                          
++CPMS: 0,25,0,25,0,25                                                           
+OK                                                                              
+AT+CSDH=1                                                                       
+OK                                                                              
+AT+CGREG=2                                                                      
+OK                                                                              
+AT+CMEE=2                                                                       
+OK                                                                              
+AT+GSN                                                                          
++GSN: 861417080002664                                                           
+OK                                                                              
+AT+CCID                                                                         
++CCID: 8991102606614156787F                                                     
+OK                                                                              
+                                                                                
++CGREG: 1,"0898","09b1960d",7                                                   
+AT+CGREG=2                                                                      
+OK                                                                              
+AT+CSQ                                                                          
++CSQ: 31,99                                                                     
+OK                                                                              
+AT+CGREG?                                                                       
++CGREG: 2,1,"0898","09b1960d",7                                                 
+OK                                                                              
+AT+CGATT?                                                                       
++CGATT: 1                                                                       
+OK                                                                              
+AT+COPS?                                                                        
++COPS: 0,0,"IND airtel",7                                                       
+OK               
+
+
+
+
+/* ----------------------------------Testing 2--------------------------------------------- */
++STKPCI: 0, D009810301260182028182                                              
+                                                                                
++PBREADY                                                                        
+AT+CFUN=0                                                                       
+OK                                                                              
+AT+CFUN=1                                                                       
+OK                                                                              
+AT+CRSM=176,28539,0,0,12                                                        
++CRSM: 144,0,"FFFFFFFFFFFFFFFFFFFFFFFF"                                         
+OK                                                                              
+AT+CRSM=214,28539,0,0,12,"FFFFFFFFFFFFFFFFFFFFFFFF"                             
++CRSM: 144,0                                                                    
+OK                                                                              
+AT+STKEN?                                                                       
++STKEN: 1                                                                       
+OK                                                                              
+ATI                                                                             
+NEOWAY                                                                          
+N58C                                                                            
+V001                                                                            
+OK                                                                              
+AT+CIMI                                                                         
++CIMI: 404100661415678                                                          
+OK                                                                              
+AT+IFC=0,0                                                                      
+OK                                                                              
+AT+CSMS=1                                                                       
++CSMS: 1,1,1,1                                                                  
+OK                                                                              
+AT+CMGF=1                                                                       
+OK                                                                              
+AT+CSCS="IRA"                                                                   
+OK                                                                              
+AT+CSMP=17,167,0,241                                                            
+OK                                                                              
+AT+CPMS="SM","SM","SM"                                                          
++CPMS: 0,25,0,25,0,25                                                           
+OK                                                                              
+AT+CSDH=1                                                                       
+OK                                                                              
+AT+CGREG=2                                                                      
+OK                                                                              
+AT+CMEE=2                                                                       
+OK                                                                              
+AT+GSN                                                                          
++GSN: 861417080002664                                                           
+OK                                                                              
+AT+CCID                                                                         
++CCID: 8991102606614156787F                                                     
+OK                                                                              
+                                                                                
++CGREG: 1,"0898","09b1960d",7                                                   
+AT+CGREG=2                                                                      
+OK                                                                              
+AT+CSQ                                                                          
++CSQ: 31,99                                                                     
+OK                                                                              
+AT+CGREG?                                                                       
++CGREG: 2,1,"0898","09b1960d",7                                                 
+OK                                                                              
+AT+CGATT?                                                                       
++CGATT: 1                                                                       
+OK                                                                              
+AT+COPS?                                                                        
++COPS: 0,0,"IND airtel",7                                                       
+OK                                                                              
+AT+CGDCONT?                                                                     
++CGDCONT: 1,"IP","taisysnet","IPV4:0.0.0.0",0,0                                 
++CGDCONT: 2,"IPV4V6","","IPV4:0.0.0.0    IPV6:  ::",0,0                         
++CGDCONT: 3,"IPV4V6","","IPV4:0.0.0.0    IPV6:  ::",0,0                         
++CGDCONT: 4,"IPV4V6","","IPV4:0.0.0.0    IPV6:  ::",0,0                         
++CGDCONT: 5,"IPV4V6","","IPV4:0.0.0.0    IPV6:  ::",0,0                         
++CGDCONT: 6,"IPV4V6","","IPV4:0.0.0.0    IPV6:  ::",0,0                         
++CGDCONT: 7,"IPV4V6","","IPV4:0.0.0.0    IPV6:  ::",0,0                         
+OK                                                                              
+AT+XIIC?                                                                        
++XIIC:0,0.0.0.0                                                                 
+OK                                                                              
+AT+XIIC=1                                                                       
+OK                                                                              
+                                                                                
++NEWIP:1,10.248.240.106                                                         
+                                                                                
++PPPSTATUS:OPENED                                                               
+AT+TCPKEEPALIVE=1,120,75,9                                                      
+OK                                                                              
+AT+CCLK?                                                                        
++CCLK: "26/11/27,11:44:38+22"                                                   
+OK                                                                              
+AT+QENG="servingcell"                                                           
++QENG: "servingcell","NOCONN","LTE","TDD",404,10,9B1960D,215,39150,40,5,5,898,67
+,19,-44,6,47                                                                    
+OK                                                                              
+AT+QENG="neighbourcell"                                                         
++QENG: "neighbourcellintra","LTE",39150,-,-,-,-,-,-,6,8,8,44                    
++QENG: "neighbourcellinter","LTE",39295,-,-,-,-,-,-,10,12,5                     
++QENG: "neighbourcellinter","LTE",39294,-,-,-,-,-,-,10,12,4                     
++QENG: "neighbourcellinter","LTE",39151,-,-,-,-,-,-,0,12,6                      
++QENG: "neighbourcellinter","LTE",3676,-,-,-,-,-,-,62,12,2                      
++QENG: "neighbourcellinter","LTE",315,-,-,-,-,-,-,12,12,5                       
++QENG: "neighbourcellinter","LTE",265,-,-,-,-,-,-,12,12,5                       
++QENG: "neighbourcellinter","LTE",1346,-,-,-,-,-,-,16,12,3                      
++QENG: "neighbourcellinter","LTE",1345,-,-,-,-,-,-,0,12,6                       
+OK                                                                              
+AT+CSQ                                                                          
++CSQ: 31,99                                                                     
+OK                                                                              
+AT+CGREG?                                                                       
++CGREG: 2,1,"0898","09b1960d",7                                                 
+OK                                                                              
+AT+CGATT?                                                                       
++CGATT: 1                                                                       
+OK                                                                              
+AT+TCPSETUP=0,45.115.177.37,20095                                               
+OK                                                                              
+                                                                                
++TCPSETUP: 0,OK                                                                 
+AT+CSQ                                                                          
++CSQ: 31,99                                                                     
+OK                                                                              
+AT+CGREG?                                                                       
++CGREG: 2,1,"0898","09b1960d",7                                                 
+OK                                                                              
+AT+CGATT?                                                                       
++CGATT: 1                                                                       
+OK     
+
+AT+CEREG?                                                                       
++CEREG: 0,3                                                                     
+OK                                                                              
+AT+COPS?                                                                        
++COPS: 2                                                                        
+OK                                                                              
+AT+CEREG?                                                                       
++CEREG: 0,3                                                                     
+OK                                                                              
+AT+COPS?                                                                        
++COPS: 2                                                                        
+OK                                                                              
+AT+CEREG?                                                                       
++CEREG: 0,3                                                                     
+OK                                                                              
+AT+COPS?                                                                        
++COPS: 0,0,"IND airtel",7                                                       
+OK                                                                              
+AT+CFUN=1,1                                                                     
+OK                                                                              
+                                                                                
++PBREADY                                                                        
+                                                                                
++STKPCI: 0, D009810301260182028182                                              
+AT+STKEN=1                                                                      
+OK                                                                              
+AT+STKM=1                                                                       
+OK                                                                              
+AT+STKTR="810301250082028281830100"                                             
++STKTR: 0                                                                       
+OK                                                                              
+                                                                                
++STKPCI: 0, D009810301260082028182                                              
+AT+STKENV="D30782020181900101"                                                  
++STKENV: 0                                                                      
+OK                                                                              
+AT+STKTR="810301240082028281830100900102"                                       
++STKTR: 0                                                                       
+OK                                                                              
+                                                                                
++STKPCI: 0, D00E810301050082028182990303090A                                    
+AT+STKTR="810301210082028281830100"                                             
++STKTR: 0                                                                       
+OK                                                                              
+                                                                                
++STKPCI: 0, D00D8103010300820281828402010F                                      
+AT+CFUN=1,1                                                                     
+OK                                                                              
+                                                                                
++STKPCI: 0, D009810301260182028182                                              
+                                                                                
++PBREADY                                                                        
+AT+CFUN=0                                                                       
+OK                                                                              
+AT+CFUN=1                                                                       
+OK                                                                              
+AT+CRSM=176,28539,0,0,12                                                        
++CRSM: 144,0,"FFFFFFFFFFFFFFFFFFFFFFFF"                                         
+OK                                                                              
+AT+CRSM=214,28539,0,0,12,"FFFFFFFFFFFFFFFFFFFFFFFF"                             
++CRSM: 144,0                                                                    
+OK                                                                              
+AT+STKEN?                                                                       
++STKEN: 1                                                                       
+OK                                                                              
+ATI                                                                             
+NEOWAY                                                                          
+N58C                                                                            
+V001                                                                            
+OK                                                                              
+AT+CIMI                                                                         
++CIMI: 404100661415678                                                          
+OK                                                                              
+AT+IFC=0,0                                                                      
+OK                                                                              
+AT+CSMS=1                                                                       
++CSMS: 1,1,1,1                                                                  
+OK                                                                              
+AT+CMGF=1                                                                       
+OK                                                                              
+AT+CSCS="IRA"                                                                   
+OK                                                                              
+AT+CSMP=17,167,0,241                                                            
+OK                                                                              
+AT+CPMS="SM","SM","SM"                                                          
++CPMS: 0,25,0,25,0,25                                                           
+OK                                                                              
+AT+CSDH=1                                                                       
+OK                                                                              
+AT+CGREG=2                                                                      
+OK                                                                              
+AT+CMEE=2                                                                       
+OK                                                                              
+AT+GSN                                                                          
++GSN: 861417080002664                                                           
+OK                                                                              
+AT+CCID                                                                         
++CCID: 8991102606614156787F                                                     
+OK                                                                              
+                                                                                
++CGREG: 1,"0898","09b1960d",7                                                   
+AT+CGREG=2                                                                      
+OK                                                                              
+AT+CSQ                                                                          
++CSQ: 31,99                                                                     
+OK                                                                              
+AT+CGREG?                                                                       
++CGREG: 2,1,"0898","09b1960d",7                                                 
+OK                                                                              
+AT+CGATT?                                                                       
++CGATT: 1                                                                       
+OK                                                                              
+AT+COPS?                                                                        
++COPS: 0,0,"IND airtel",7                                                       
+OK               
+                                                                         
+                                                               
+
+
+

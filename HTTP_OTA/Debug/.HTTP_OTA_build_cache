@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<BuildDb>
+    <Tool>
+        <Name>linker</Name>
+        <Parent>
+            <Path>D:\EDS\Clients\VTS\AIS-140\RDM\4G\Firmware\HTTP_OTA\Debug\Exe\HTTP_OTA.out</Path>
+            <Output>
+                <Path>D:\EDS\Clients\VTS\AIS-140\RDM\4G\Firmware\HTTP_OTA\Debug\List\HTTP_OTA.map</Path>
+            </Output>
+        </Parent>
+    </Tool>
+</BuildDb>

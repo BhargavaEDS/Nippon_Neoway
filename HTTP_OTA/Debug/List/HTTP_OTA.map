@@ -1,0 +1,733 @@
+###############################################################################
+#
+# IAR ELF Linker V9.70.2.500/W64 for ARM                  26/Nov/2026  18:17:35
+# Copyright 2007-2025 IAR Systems AB.
+#
+#    Output file  =  D:\Work\Nippon_Neoway_4G\HTTP_OTA\Debug\Exe\HTTP_OTA.out
+#    Map file     =  D:\Work\Nippon_Neoway_4G\HTTP_OTA\Debug\List\HTTP_OTA.map
+#    Command line =
+#        -f D:\Work\Nippon_Neoway_4G\HTTP_OTA\Debug\Exe\HTTP_OTA.out.rsp
+#        (D:\Work\Nippon_Neoway_4G\HTTP_OTA\Debug\Obj\User_App_508936332199231944.dir\App_Init.o
+#        D:\Work\Nippon_Neoway_4G\HTTP_OTA\Debug\Obj\User_App_508936332199231944.dir\App_RAM.o
+#        D:\Work\Nippon_Neoway_4G\HTTP_OTA\Debug\Obj\User_App_508936332199231944.dir\Configure_STM32.o
+#        D:\Work\Nippon_Neoway_4G\HTTP_OTA\Debug\Obj\User_App_508936332199231944.dir\GPRS.o
+#        D:\Work\Nippon_Neoway_4G\HTTP_OTA\Debug\Obj\User_App_508936332199231944.dir\Main.o
+#        D:\Work\Nippon_Neoway_4G\HTTP_OTA\Debug\Obj\User_App_508936332199231944.dir\SPI_Flash.o
+#        D:\Work\Nippon_Neoway_4G\HTTP_OTA\Debug\Obj\CMSIS_13545061835669826545.dir\startup_stm32f091.o
+#        D:\Work\Nippon_Neoway_4G\HTTP_OTA\Debug\Obj\STM32F0_Lib_9189524066007364531.dir\stm32f0xx_adc.o
+#        D:\Work\Nippon_Neoway_4G\HTTP_OTA\Debug\Obj\STM32F0_Lib_9189524066007364531.dir\stm32f0xx_can.o
+#        D:\Work\Nippon_Neoway_4G\HTTP_OTA\Debug\Obj\STM32F0_Lib_9189524066007364531.dir\stm32f0xx_cec.o
+#        D:\Work\Nippon_Neoway_4G\HTTP_OTA\Debug\Obj\STM32F0_Lib_9189524066007364531.dir\stm32f0xx_comp.o
+#        D:\Work\Nippon_Neoway_4G\HTTP_OTA\Debug\Obj\STM32F0_Lib_9189524066007364531.dir\stm32f0xx_crc.o
+#        D:\Work\Nippon_Neoway_4G\HTTP_OTA\Debug\Obj\STM32F0_Lib_9189524066007364531.dir\stm32f0xx_crs.o
+#        D:\Work\Nippon_Neoway_4G\HTTP_OTA\Debug\Obj\STM32F0_Lib_9189524066007364531.dir\stm32f0xx_dac.o
+#        D:\Work\Nippon_Neoway_4G\HTTP_OTA\Debug\Obj\STM32F0_Lib_9189524066007364531.dir\stm32f0xx_dbgmcu.o
+#        D:\Work\Nippon_Neoway_4G\HTTP_OTA\Debug\Obj\STM32F0_Lib_9189524066007364531.dir\stm32f0xx_dma.o
+#        D:\Work\Nippon_Neoway_4G\HTTP_OTA\Debug\Obj\STM32F0_Lib_9189524066007364531.dir\stm32f0xx_exti.o
+#        D:\Work\Nippon_Neoway_4G\HTTP_OTA\Debug\Obj\STM32F0_Lib_9189524066007364531.dir\stm32f0xx_flash.o
+#        D:\Work\Nippon_Neoway_4G\HTTP_OTA\Debug\Obj\STM32F0_Lib_9189524066007364531.dir\stm32f0xx_gpio.o
+#        D:\Work\Nippon_Neoway_4G\HTTP_OTA\Debug\Obj\STM32F0_Lib_9189524066007364531.dir\stm32f0xx_i2c.o
+#        D:\Work\Nippon_Neoway_4G\HTTP_OTA\Debug\Obj\User_App_508936332199231944.dir\stm32f0xx_it.o
+#        D:\Work\Nippon_Neoway_4G\HTTP_OTA\Debug\Obj\STM32F0_Lib_9189524066007364531.dir\stm32f0xx_iwdg.o
+#        D:\Work\Nippon_Neoway_4G\HTTP_OTA\Debug\Obj\STM32F0_Lib_9189524066007364531.dir\stm32f0xx_misc.o
+#        D:\Work\Nippon_Neoway_4G\HTTP_OTA\Debug\Obj\STM32F0_Lib_9189524066007364531.dir\stm32f0xx_pwr.o
+#        D:\Work\Nippon_Neoway_4G\HTTP_OTA\Debug\Obj\STM32F0_Lib_9189524066007364531.dir\stm32f0xx_rcc.o
+#        D:\Work\Nippon_Neoway_4G\HTTP_OTA\Debug\Obj\STM32F0_Lib_9189524066007364531.dir\stm32f0xx_rtc.o
+#        D:\Work\Nippon_Neoway_4G\HTTP_OTA\Debug\Obj\STM32F0_Lib_9189524066007364531.dir\stm32f0xx_spi.o
+#        D:\Work\Nippon_Neoway_4G\HTTP_OTA\Debug\Obj\STM32F0_Lib_9189524066007364531.dir\stm32f0xx_syscfg.o
+#        D:\Work\Nippon_Neoway_4G\HTTP_OTA\Debug\Obj\STM32F0_Lib_9189524066007364531.dir\stm32f0xx_tim.o
+#        D:\Work\Nippon_Neoway_4G\HTTP_OTA\Debug\Obj\STM32F0_Lib_9189524066007364531.dir\stm32f0xx_usart.o
+#        D:\Work\Nippon_Neoway_4G\HTTP_OTA\Debug\Obj\STM32F0_Lib_9189524066007364531.dir\stm32f0xx_wwdg.o
+#        D:\Work\Nippon_Neoway_4G\HTTP_OTA\Debug\Obj\CMSIS_13545061835669826545.dir\system_stm32f0xx.o
+#        D:\Work\Nippon_Neoway_4G\HTTP_OTA\Debug\Obj\User_App_508936332199231944.dir\VTS_Functions.o
+#        --no_out_extension -o
+#        D:\Work\Nippon_Neoway_4G\HTTP_OTA\Debug\Exe\HTTP_OTA.out --map
+#        D:\Work\Nippon_Neoway_4G\HTTP_OTA\Debug\List\HTTP_OTA.map --config
+#        D:\Work\Nippon_Neoway_4G\HTTP_OTA\stm32f091xC.icf --semihosting
+#        --entry __iar_program_start --vfe --text_out locale --cpu=Cortex-M0
+#        --fpu=None) --diagnostics_format=sarif_stdout --dependencies=n
+#        D:\Work\Nippon_Neoway_4G\HTTP_OTA\Debug\Exe\HTTP_OTA.out.iar_deps
+#        --dynamic_output
+#        D:\Work\Nippon_Neoway_4G\HTTP_OTA\Debug\Exe\HTTP_OTA.out.iar_dynout
+#
+###############################################################################
+
+*******************************************************************************
+*** RUNTIME MODEL ATTRIBUTES
+***
+
+CppFlavor       = *
+__CPP_Runtime   = 1
+__SystemLibrary = DLib
+__dlib_version  = 6
+
+
+*******************************************************************************
+*** HEAP SELECTION
+***
+
+The basic heap was selected because --advanced_heap
+was not specified and the application did not appear to
+be primarily optimized for speed.
+
+
+*******************************************************************************
+*** PLACEMENT SUMMARY
+***
+
+"A0":  place at address 0x800'0000 {  ro section .intvec };
+"P1":  place in [from 0x800'0000 to 0x803'ffff] {  ro };
+define block CSTACK with size = 5'376, alignment = 8 { };
+define block HEAP with size = 8K, alignment = 8 { };
+"P2":  place in [from 0x2000'0000 to 0x2000'7fff] {
+           rw,  block CSTACK,  block HEAP };
+initialize by copy {  rw };
+
+  Section            Kind         Address  Alignment    Size  Object
+  -------            ----         -------  ---------    ----  ------
+"A0":                                                   0xbc
+  .intvec            ro code   0x800'0000          4    0xbc  startup_stm32f091.o [1]
+                             - 0x800'00bc               0xbc
+
+"P1":                                                 0x488e
+  .text              ro code   0x800'00bc          4   0xe9c  VTS_Functions.o [3]
+  .text              ro code   0x800'0f58          4   0x8f0  GPRS.o [3]
+  .text              ro code   0x800'1848          4    0x74  strcpy.o [5]
+  .text              ro code   0x800'18bc          4    0x40  sprintf.o [4]
+  .text              ro code   0x800'18fc          4    0x4e  ABImemset.o [5]
+  .text              ro code   0x800'194a          2     0xa  xsprout.o [4]
+  .text              ro code   0x800'1954          4    0x12  strchr.o [5]
+  .text              ro code   0x800'1966          2     0x2  startup_stm32f091.o [1]
+  .text              ro code   0x800'1968          4   0x160  iar_Stoulx.o [4]
+  .text              ro code   0x800'1ac8          4    0x3c  stm32f0xx_iwdg.o [2]
+  .text              ro code   0x800'1b04          2    0x2e  strstr.o [4]
+  .text              ro code   0x800'1b32          2     0x2  startup_stm32f091.o [1]
+  .text              ro code   0x800'1b34          4   0x3f8  SPI_Flash.o [3]
+  .text              ro code   0x800'1f2c          4    0x40  stm32f0xx_rtc.o [2]
+  .text              ro code   0x800'1f6c          4   0x340  stm32f0xx_flash.o [2]
+  .text              ro code   0x800'22ac          4   0x2ac  stm32f0xx_usart.o [2]
+  .text              ro code   0x800'2558          4   0x1c4  stm32f0xx_gpio.o [2]
+  .text              ro code   0x800'271c          4   0x2d0  stm32f0xx_rcc.o [2]
+  .text              ro code   0x800'29ec          4     0xe  strlen.o [5]
+  .text              ro code   0x800'29fa          2     0xc  toupper.o [4]
+  .text              ro code   0x800'2a06          2     0x2  startup_stm32f091.o [1]
+  .text              ro code   0x800'2a08          4    0xc0  strcmp.o [5]
+  .text              ro code   0x800'2ac8          4   0x400  App_Init.o [3]
+  .text              ro code   0x800'2ec8          2   0x17a  xprintftiny.o [4]
+  .text              ro code   0x800'3042          2     0x2  startup_stm32f091.o [1]
+  .text              ro code   0x800'3044          4    0x16  memchr.o [5]
+  .text              ro code   0x800'305a          2    0xe0  I32DivModFast.o [5]
+  .text              ro code   0x800'313a          2     0x2  startup_stm32f091.o [1]
+  .text              ro code   0x800'313c          4    0xf2  stm32f0xx_spi.o [2]
+  .text              ro code   0x800'322e          2     0x2  startup_stm32f091.o [1]
+  .text              ro code   0x800'3230          4     0x2  IntDivZer.o [5]
+  .text              ro code   0x800'3232          2     0x2  startup_stm32f091.o [1]
+  .text              ro code   0x800'3234          4   0x594  stm32f0xx_it.o [3]
+  .text              ro code   0x800'37c8          4    0xe8  stm32f0xx_dma.o [2]
+  .text              ro code   0x800'38b0          4   0x518  Main.o [3]
+  .text              ro code   0x800'3dc8          4   0x31c  Configure_STM32.o [3]
+  .text              ro code   0x800'40e4          4    0x2c  stm32f0xx_pwr.o [2]
+  .text              ro code   0x800'4110          4    0x70  stm32f0xx_misc.o [2]
+  .text              ro code   0x800'4180          4    0x20  stm32f0xx_dbgmcu.o [2]
+  .text              ro code   0x800'41a0          4   0x180  system_stm32f0xx.o [1]
+  .rodata            const     0x800'4320          4    0x50  iar_Stoulx.o [4]
+  .text              ro code   0x800'4370          4    0x3c  startup_stm32f091.o [1]
+  .text              ro code   0x800'43ac          2    0x3c  zero_init3.o [5]
+  .text              ro code   0x800'43e8          2    0x30  copy_init3.o [5]
+  .rodata            const     0x800'4418          4    0x2c  VTS_Functions.o [3]
+  .text              ro code   0x800'4444          4    0x2c  iarttio.o [6]
+  .text              ro code   0x800'4470          4     0x8  XShttio.o [4]
+  .rodata            const     0x800'4478          4    0x28  GPRS.o [3]
+  .text              ro code   0x800'44a0          4    0x28  data_init.o [5]
+  Initializer bytes  const     0x800'44c8          4    0x24  <for P2-1>
+  .text              ro code   0x800'44ec          4    0x22  cmain.o [5]
+  .text              ro code   0x800'450e          2     0x4  low_level_init.o [4]
+  .text              ro code   0x800'4512          2     0x8  exit.o [4]
+  .text              ro code   0x800'451a          2     0x2  startup_stm32f091.o [1]
+  .text              ro code   0x800'451c          4     0x4  cexit.o [5]
+  .text              ro code   0x800'4520          4     0xa  cexit_2.o [5]
+  .text              ro code   0x800'452a          2     0x2  startup_stm32f091.o [1]
+  .text              ro code   0x800'452c          4    0x14  exit.o [6]
+  .iar.init_table    const     0x800'4540          4    0x24  - Linker created -
+  .rodata            const     0x800'4564          4    0x20  App_Init.o [3]
+  .rodata            const     0x800'4584          4    0x20  GPRS.o [3]
+  .rodata            const     0x800'45a4          4    0x1c  GPRS.o [3]
+  .rodata            const     0x800'45c0          4    0x1c  GPRS.o [3]
+  .rodata            const     0x800'45dc          4    0x1c  GPRS.o [3]
+  .text              ro code   0x800'45f8          4    0x1c  cstartup_M.o [5]
+  .rodata            const     0x800'4614          4    0x18  GPRS.o [3]
+  .rodata            const     0x800'462c          4    0x18  GPRS.o [3]
+  .rodata            const     0x800'4644          4    0x18  GPRS.o [3]
+  .rodata            const     0x800'465c          4    0x18  Main.o [3]
+  .rodata            const     0x800'4674          4    0x14  GPRS.o [3]
+  .rodata            const     0x800'4688          4    0x14  VTS_Functions.o [3]
+  .rodata            const     0x800'469c          4    0x14  VTS_Functions.o [3]
+  .rodata            const     0x800'46b0          4    0x14  VTS_Functions.o [3]
+  .rodata            const     0x800'46c4          4    0x14  VTS_Functions.o [3]
+  .rodata            const     0x800'46d8          4    0x10  GPRS.o [3]
+  .rodata            const     0x800'46e8          4    0x10  GPRS.o [3]
+  .rodata            const     0x800'46f8          4    0x10  GPRS.o [3]
+  .rodata            const     0x800'4708          4    0x10  GPRS.o [3]
+  .rodata            const     0x800'4718          4    0x10  GPRS.o [3]
+  .rodata            const     0x800'4728          4    0x10  Main.o [3]
+  .rodata            const     0x800'4738          4    0x10  Main.o [3]
+  .rodata            const     0x800'4748          4    0x10  VTS_Functions.o [3]
+  .rodata            const     0x800'4758          4    0x10  VTS_Functions.o [3]
+  .rodata            const     0x800'4768          4    0x10  VTS_Functions.o [3]
+  .rodata            const     0x800'4778          4     0xc  App_Init.o [3]
+  .rodata            const     0x800'4784          4     0xc  App_Init.o [3]
+  .rodata            const     0x800'4790          4     0xc  App_Init.o [3]
+  .rodata            const     0x800'479c          4     0xc  GPRS.o [3]
+  .rodata            const     0x800'47a8          4     0xc  GPRS.o [3]
+  .rodata            const     0x800'47b4          4     0xc  GPRS.o [3]
+  .rodata            const     0x800'47c0          4     0xc  GPRS.o [3]
+  .rodata            const     0x800'47cc          4     0xc  GPRS.o [3]
+  .rodata            const     0x800'47d8          4     0xc  GPRS.o [3]
+  .rodata            const     0x800'47e4          4     0xc  GPRS.o [3]
+  .rodata            const     0x800'47f0          4     0xc  GPRS.o [3]
+  .rodata            const     0x800'47fc          4     0xc  GPRS.o [3]
+  .rodata            const     0x800'4808          4     0xc  GPRS.o [3]
+  .rodata            const     0x800'4814          4     0xc  GPRS.o [3]
+  .rodata            const     0x800'4820          4     0xc  stm32f0xx_it.o [3]
+  .rodata            const     0x800'482c          4     0xc  VTS_Functions.o [3]
+  .rodata            const     0x800'4838          4     0xc  VTS_Functions.o [3]
+  .rodata            const     0x800'4844          4     0xc  VTS_Functions.o [3]
+  .rodata            const     0x800'4850          4     0xc  VTS_Functions.o [3]
+  .rodata            const     0x800'485c          4     0x8  App_Init.o [3]
+  .rodata            const     0x800'4864          4     0x8  GPRS.o [3]
+  .rodata            const     0x800'486c          4     0x8  GPRS.o [3]
+  .rodata            const     0x800'4874          4     0x8  GPRS.o [3]
+  .rodata            const     0x800'487c          4     0x8  GPRS.o [3]
+  .rodata            const     0x800'4884          4     0x8  GPRS.o [3]
+  .rodata            const     0x800'488c          4     0x8  GPRS.o [3]
+  .rodata            const     0x800'4894          4     0x8  GPRS.o [3]
+  .rodata            const     0x800'489c          4     0x8  GPRS.o [3]
+  .rodata            const     0x800'48a4          4     0x8  GPRS.o [3]
+  .rodata            const     0x800'48ac          4     0x8  GPRS.o [3]
+  .rodata            const     0x800'48b4          4     0x8  GPRS.o [3]
+  .rodata            const     0x800'48bc          4     0x8  GPRS.o [3]
+  .rodata            const     0x800'48c4          4     0x8  Main.o [3]
+  .rodata            const     0x800'48cc          4     0x8  stm32f0xx_it.o [3]
+  .rodata            const     0x800'48d4          4     0x8  stm32f0xx_it.o [3]
+  .rodata            const     0x800'48dc          4     0x8  stm32f0xx_it.o [3]
+  .rodata            const     0x800'48e4          4     0x8  stm32f0xx_it.o [3]
+  .rodata            const     0x800'48ec          4     0x8  stm32f0xx_it.o [3]
+  .rodata            const     0x800'48f4          4     0x8  stm32f0xx_it.o [3]
+  .rodata            const     0x800'48fc          4     0x8  VTS_Functions.o [3]
+  .rodata            const     0x800'4904          4     0x8  VTS_Functions.o [3]
+  .rodata            const     0x800'490c          4     0x8  VTS_Functions.o [3]
+  .rodata            const     0x800'4914          4     0x8  VTS_Functions.o [3]
+  .rodata            const     0x800'491c          4     0x8  VTS_Functions.o [3]
+  .text              ro code   0x800'4924          2     0x2  startup_stm32f091.o [1]
+  .text              ro code   0x800'4926          2     0x2  startup_stm32f091.o [1]
+  .text              ro code   0x800'4928          2     0x2  startup_stm32f091.o [1]
+  .text              ro code   0x800'492a          2     0x2  startup_stm32f091.o [1]
+  .text              ro code   0x800'492c          2     0x2  startup_stm32f091.o [1]
+  .text              ro code   0x800'492e          2     0x2  startup_stm32f091.o [1]
+  .text              ro code   0x800'4930          2     0x2  startup_stm32f091.o [1]
+  .text              ro code   0x800'4932          2     0x2  startup_stm32f091.o [1]
+  .text              ro code   0x800'4934          2     0x2  startup_stm32f091.o [1]
+  .text              ro code   0x800'4936          2     0x2  startup_stm32f091.o [1]
+  .text              ro code   0x800'4938          2     0x2  startup_stm32f091.o [1]
+  .text              ro code   0x800'493a          2     0x2  startup_stm32f091.o [1]
+  .text              ro code   0x800'493c          2     0x2  startup_stm32f091.o [1]
+  .text              ro code   0x800'493e          2     0x2  startup_stm32f091.o [1]
+  .text              ro code   0x800'4940          2     0x2  startup_stm32f091.o [1]
+  .text              ro code   0x800'4942          2     0x2  startup_stm32f091.o [1]
+  .text              ro code   0x800'4944          2     0x2  startup_stm32f091.o [1]
+  .text              ro code   0x800'4946          2     0x2  startup_stm32f091.o [1]
+  .text              ro code   0x800'4948          2     0x2  startup_stm32f091.o [1]
+  .rodata            const     0x800'494a                0x0  zero_init3.o [5]
+  .rodata            const     0x800'494a                0x0  copy_init3.o [5]
+                             - 0x800'494a             0x488e
+
+"P2", part 1 of 3:                                      0x24
+  P2-1                        0x2000'0000          4    0x23  <Init block>
+    .data            inited   0x2000'0000          4    0x10  stm32f0xx_rcc.o [2]
+    .data            inited   0x2000'0010          4     0x4  system_stm32f0xx.o [1]
+    .data            inited   0x2000'0014          4     0x4  VTS_Functions.o [3]
+    .data            inited   0x2000'0018          4     0x8  XShttio.o [4]
+    .data            inited   0x2000'0020          2     0x2  App_RAM.o [3]
+    .data            inited   0x2000'0022                0x1  GPRS.o [3]
+                            - 0x2000'0023               0x23
+
+"P2", part 2 of 3:                                    0x34c0
+  .bss               zero     0x2000'0024          4  0x300c  GPRS.o [3]
+  .bss               zero     0x2000'3030          4   0x1f4  GPRS.o [3]
+  .bss               zero     0x2000'3224          4   0x110  GPRS.o [3]
+  .bss               zero     0x2000'3334          4    0x68  GPRS.o [3]
+  .bss               zero     0x2000'339c          4    0x64  GPRS.o [3]
+  .bss               zero     0x2000'3400          4    0x34  App_RAM.o [3]
+  .bss               zero     0x2000'3434          4    0x14  App_RAM.o [3]
+  .bss               zero     0x2000'3448          4    0x10  GPRS.o [3]
+  .bss               zero     0x2000'3458          4     0xc  App_Init.o [3]
+  .bss               zero     0x2000'3464          4     0xc  App_Init.o [3]
+  .bss               zero     0x2000'3470          4     0xc  App_RAM.o [3]
+  .bss               zero     0x2000'347c          4     0xc  App_RAM.o [3]
+  .bss               zero     0x2000'3488          4     0x4  App_RAM.o [3]
+  .bss               zero     0x2000'348c          4     0x4  App_RAM.o [3]
+  .bss               zero     0x2000'3490          4     0x4  App_RAM.o [3]
+  .bss               zero     0x2000'3494          4     0x4  App_RAM.o [3]
+  .bss               zero     0x2000'3498          4     0x4  App_RAM.o [3]
+  .bss               zero     0x2000'349c          4     0x4  GPRS.o [3]
+  .bss               zero     0x2000'34a0          4     0x4  VTS_Functions.o [3]
+  .bss               zero     0x2000'34a4          4     0x4  VTS_Functions.o [3]
+  .bss               zero     0x2000'34a8          4     0x4  VTS_Functions.o [3]
+  .bss               zero     0x2000'34ac          4     0x4  VTS_Functions.o [3]
+  .bss               zero     0x2000'34b0          2     0x2  App_RAM.o [3]
+  .bss               zero     0x2000'34b2          2     0x2  App_RAM.o [3]
+  .bss               zero     0x2000'34b4          2     0x2  App_RAM.o [3]
+  .bss               zero     0x2000'34b6          2     0x2  App_RAM.o [3]
+  .bss               zero     0x2000'34b8          2     0x2  App_RAM.o [3]
+  .bss               zero     0x2000'34ba          2     0x2  App_RAM.o [3]
+  .bss               zero     0x2000'34bc                0x1  App_RAM.o [3]
+  .bss               zero     0x2000'34bd                0x1  App_RAM.o [3]
+  .bss               zero     0x2000'34be                0x1  App_RAM.o [3]
+  .bss               zero     0x2000'34bf                0x1  App_RAM.o [3]
+  .bss               zero     0x2000'34c0                0x1  App_RAM.o [3]
+  .bss               zero     0x2000'34c1                0x1  App_RAM.o [3]
+  .bss               zero     0x2000'34c2                0x1  App_RAM.o [3]
+  .bss               zero     0x2000'34c3                0x1  App_RAM.o [3]
+  .bss               zero     0x2000'34c4                0x1  App_RAM.o [3]
+  .bss               zero     0x2000'34c5                0x1  App_RAM.o [3]
+  .bss               zero     0x2000'34c6                0x1  App_RAM.o [3]
+  .bss               zero     0x2000'34c7                0x1  App_RAM.o [3]
+  .bss               zero     0x2000'34c8                0x1  App_RAM.o [3]
+  .bss               zero     0x2000'34c9                0x1  App_RAM.o [3]
+  .bss               zero     0x2000'34ca                0x1  App_RAM.o [3]
+  .bss               zero     0x2000'34cb                0x1  GPRS.o [3]
+  .bss               zero     0x2000'34cc                0x1  GPRS.o [3]
+  .bss               zero     0x2000'34cd                0x1  GPRS.o [3]
+  .bss               zero     0x2000'34ce                0x1  GPRS.o [3]
+  .bss               zero     0x2000'34cf                0x1  GPRS.o [3]
+  .bss               zero     0x2000'34d0                0x1  GPRS.o [3]
+  .bss               zero     0x2000'34d1                0x1  GPRS.o [3]
+  .bss               zero     0x2000'34d2                0x1  GPRS.o [3]
+  .bss               zero     0x2000'34d3                0x1  GPRS.o [3]
+  .bss               zero     0x2000'34d4                0x1  GPRS.o [3]
+  .bss               zero     0x2000'34d5                0x1  GPRS.o [3]
+  .bss               zero     0x2000'34d6                0x1  GPRS.o [3]
+  .bss               zero     0x2000'34d7                0x1  GPRS.o [3]
+  .bss               zero     0x2000'34d8                0x1  Main.o [3]
+  .bss               zero     0x2000'34d9                0x1  Main.o [3]
+  .bss               zero     0x2000'34da                0x1  Main.o [3]
+  .bss               zero     0x2000'34db                0x1  Main.o [3]
+  .bss               zero     0x2000'34dc                0x1  Main.o [3]
+  .bss               zero     0x2000'34dd                0x1  Main.o [3]
+  .bss               zero     0x2000'34de                0x1  stm32f0xx_it.o [3]
+  .bss               zero     0x2000'34df                0x1  stm32f0xx_it.o [3]
+  .bss               zero     0x2000'34e0                0x1  stm32f0xx_it.o [3]
+  .bss               zero     0x2000'34e1                0x1  VTS_Functions.o [3]
+  .bss               zero     0x2000'34e2                0x1  VTS_Functions.o [3]
+                            - 0x2000'34e3             0x34bf
+
+"P2", part 3 of 3:                                    0x1500
+  CSTACK                      0x2000'34e8          8  0x1500  <Block>
+    CSTACK           uninit   0x2000'34e8             0x1500  <Block tail>
+                            - 0x2000'49e8             0x1500
+
+Unused ranges:
+
+         From           To      Size
+         ----           --      ----
+   0x800'494a   0x803'ffff  0x3'b6b6
+  0x2000'34e4  0x2000'34e7       0x4
+  0x2000'49e8  0x2000'7fff    0x3618
+
+
+*******************************************************************************
+*** INIT TABLE
+***
+
+          Address      Size
+          -------      ----
+Zero (__iar_zero_init3)
+    1 destination range, total size 0x34bf:
+          0x2000'0024  0x34bf
+
+Copy (__iar_copy_init3)
+    1 source range, total size 0x24 (102% of destination):
+           0x800'44c8    0x24
+    1 destination range, total size 0x23:
+          0x2000'0000    0x23
+
+
+
+*******************************************************************************
+*** MODULE SUMMARY
+***
+
+    Module               ro code  ro data  rw data
+    ------               -------  -------  -------
+command line/config:
+    ----------------------------------------------
+    Total:
+
+D:\Work\Nippon_Neoway_4G\HTTP_OTA\Debug\Obj\CMSIS_13545061835669826545.dir: [1]
+    startup_stm32f091.o      304
+    system_stm32f0xx.o       384        4        4
+    ----------------------------------------------
+    Total:                   688        4        4
+
+D:\Work\Nippon_Neoway_4G\HTTP_OTA\Debug\Obj\STM32F0_Lib_9189524066007364531.dir: [2]
+    stm32f0xx_dbgmcu.o        32
+    stm32f0xx_dma.o          232
+    stm32f0xx_flash.o        832
+    stm32f0xx_gpio.o         452
+    stm32f0xx_iwdg.o          60
+    stm32f0xx_misc.o         112
+    stm32f0xx_pwr.o           44
+    stm32f0xx_rcc.o          720       16       16
+    stm32f0xx_rtc.o           64
+    stm32f0xx_spi.o          242
+    stm32f0xx_usart.o        684
+    ----------------------------------------------
+    Total:                 3'474       16       16
+
+D:\Work\Nippon_Neoway_4G\HTTP_OTA\Debug\Obj\User_App_508936332199231944.dir: [3]
+    App_Init.o             1'024       76       24
+    App_RAM.o                           2      145
+    Configure_STM32.o        796
+    GPRS.o                 2'288      557   13'310
+    Main.o                 1'304       64        6
+    SPI_Flash.o            1'016
+    VTS_Functions.o        3'740      264       22
+    stm32f0xx_it.o         1'428       60        3
+    ----------------------------------------------
+    Total:                11'596    1'023   13'510
+
+dl6M_tln.a: [4]
+    XShttio.o                  8        8        8
+    exit.o                     8
+    iar_Stoulx.o             352       80
+    low_level_init.o           4
+    sprintf.o                 64
+    strstr.o                  46
+    toupper.o                 12
+    xprintftiny.o            378
+    xsprout.o                 10
+    ----------------------------------------------
+    Total:                   882       88        8
+
+rt6M_tl.a: [5]
+    ABImemset.o               78
+    I32DivModFast.o          224
+    IntDivZer.o                2
+    cexit.o                    4
+    cexit_2.o                 10
+    cmain.o                   34
+    copy_init3.o              48
+    cstartup_M.o              28
+    data_init.o               40
+    memchr.o                  22
+    strchr.o                  18
+    strcmp.o                 192
+    strcpy.o                 116
+    strlen.o                  14
+    zero_init3.o              60
+    ----------------------------------------------
+    Total:                   890
+
+shb_l.a: [6]
+    exit.o                    20
+    iarttio.o                 44
+    ----------------------------------------------
+    Total:                    64
+
+    Linker created                     37    5'376
+--------------------------------------------------
+    Grand Total:          17'594    1'168   18'914
+
+
+*******************************************************************************
+*** ENTRY LIST
+***
+
+Entry                       Address    Size  Type      Object
+-----                       -------    ----  ----      ------
+.iar.init_table$$Base    0x800'4540           --   Gb  - Linker created -
+.iar.init_table$$Limit   0x800'4564           --   Gb  - Linker created -
+?main                    0x800'44ed          Code  Gb  cmain.o [5]
+ADC1_COMP_IRQHandler     0x800'4929          Code  Wk  startup_stm32f091.o [1]
+APBAHBPrescTable        0x2000'0000    0x10  Data  Lc  stm32f0xx_rcc.o [2]
+CEC_CAN_IRQHandler       0x800'4949          Code  Wk  startup_stm32f091.o [1]
+CSTACK$$Base            0x2000'34e8           --   Gb  - Linker created -
+CSTACK$$Limit           0x2000'49e8           --   Gb  - Linker created -
+Check_Signal_Nw_GPRS     0x800'16bd   0x144  Code  Gb  GPRS.o [3]
+Curr_SWVer              0x2000'3470     0xc  Data  Gb  App_RAM.o [3]
+DBGMCU_APB1PeriphConfig
+                         0x800'4181    0x1c  Code  Gb  stm32f0xx_dbgmcu.o [2]
+DFU_HTTP                0x2000'3224   0x110  Data  Gb  GPRS.o [3]
+DFU_Mob                 0x2000'3448    0x10  Data  Gb  GPRS.o [3]
+DMA1_Ch1_IRQHandler      0x800'4925          Code  Wk  startup_stm32f091.o [1]
+DMA1_Ch2_3_DMA2_Ch1_2_IRQHandler
+                         0x800'372d    0x1e  Code  Gb  stm32f0xx_it.o [3]
+DMA1_Ch4_7_DMA2_Ch3_5_IRQHandler
+                         0x800'4927          Code  Wk  startup_stm32f091.o [1]
+DMA_ClearFlag            0x800'3861    0x12  Code  Gb  stm32f0xx_dma.o [2]
+DMA_Cmd                  0x800'3801    0x1c  Code  Gb  stm32f0xx_dma.o [2]
+DMA_GetITStatus          0x800'3873    0x26  Code  Gb  stm32f0xx_dma.o [2]
+DMA_ITConfig             0x800'3849    0x18  Code  Gb  stm32f0xx_dma.o [2]
+DMA_Init                 0x800'37c9    0x38  Code  Gb  stm32f0xx_dma.o [2]
+DMA_RemapConfig          0x800'381d    0x2c  Code  Gb  stm32f0xx_dma.o [2]
+DataErr                  0x800'0ecd    0x18  Code  Lc  VTS_Functions.o [3]
+Data_WaitTime           0x2000'34e1     0x1  Data  Gb  VTS_Functions.o [3]
+EXTI0_1_IRQHandler       0x800'322f          Code  Wk  startup_stm32f091.o [1]
+EXTI2_3_IRQHandler       0x800'3233          Code  Wk  startup_stm32f091.o [1]
+EXTI4_15_IRQHandler      0x800'451b          Code  Wk  startup_stm32f091.o [1]
+ErrorCode               0x2000'34b0     0x2  Data  Gb  App_RAM.o [3]
+FLASH_ErasePage          0x800'1f8f    0x42  Code  Gb  stm32f0xx_flash.o [2]
+FLASH_GetStatus          0x800'224d    0x2e  Code  Gb  stm32f0xx_flash.o [2]
+FLASH_IRQHandler         0x800'3043          Code  Wk  startup_stm32f091.o [1]
+FLASH_Lock               0x800'1f83     0xc  Code  Gb  stm32f0xx_flash.o [2]
+FLASH_OB_EnableWRP       0x800'20bd    0xbe  Code  Gb  stm32f0xx_flash.o [2]
+FLASH_OB_Erase           0x800'203b    0x82  Code  Gb  stm32f0xx_flash.o [2]
+FLASH_OB_GetRDP          0x800'222d    0x1a  Code  Gb  stm32f0xx_flash.o [2]
+FLASH_OB_Launch          0x800'202d     0xe  Code  Gb  stm32f0xx_flash.o [2]
+FLASH_OB_Lock            0x800'2021     0xc  Code  Gb  stm32f0xx_flash.o [2]
+FLASH_OB_RDPConfig       0x800'2189    0x7a  Code  Gb  stm32f0xx_flash.o [2]
+FLASH_OB_Unlock          0x800'200b    0x16  Code  Gb  stm32f0xx_flash.o [2]
+FLASH_ProgramHalfWord    0x800'1fd1    0x3a  Code  Gb  stm32f0xx_flash.o [2]
+FLASH_Unlock             0x800'1f6d    0x16  Code  Gb  stm32f0xx_flash.o [2]
+FLASH_WaitForLastOperation
+                         0x800'2285    0x28  Code  Gb  stm32f0xx_flash.o [2]
+FileLength              0x2000'34a8     0x4  Data  Gb  VTS_Functions.o [3]
+FileLoc                 0x2000'34ac     0x4  Data  Gb  VTS_Functions.o [3]
+Flag_APNSet             0x2000'34d2     0x1  Data  Gb  GPRS.o [3]
+Flag_Download           0x2000'34c2     0x1  Data  Gb  App_RAM.o [3]
+Flag_FRTM               0x2000'34bc     0x1  Data  Gb  App_RAM.o [3]
+Flag_FWFail             0x2000'34da     0x1  Data  Gb  Main.o [3]
+Flag_FW_Start           0x2000'34dc     0x1  Data  Gb  Main.o [3]
+Flag_FlashProg          0x2000'34c0     0x1  Data  Gb  App_RAM.o [3]
+Flag_GetFile            0x2000'34cb     0x1  Data  Gb  GPRS.o [3]
+Flag_GetFile_Serial     0x2000'34e2     0x1  Data  Gb  VTS_Functions.o [3]
+Flag_LoadProg           0x2000'34bf     0x1  Data  Gb  App_RAM.o [3]
+Flag_LogIn              0x2000'34db     0x1  Data  Gb  Main.o [3]
+Flag_ModemError         0x2000'34ce     0x1  Data  Gb  GPRS.o [3]
+Flag_ModemOK            0x2000'34cd     0x1  Data  Gb  GPRS.o [3]
+Flag_ModemRdy           0x2000'34c4     0x1  Data  Gb  App_RAM.o [3]
+Flag_NoResp             0x2000'34c3     0x1  Data  Gb  App_RAM.o [3]
+Flag_PWD_Req            0x2000'34de     0x1  Data  Gb  stm32f0xx_it.o [3]
+Flag_SPIFail            0x2000'34c5     0x1  Data  Gb  App_RAM.o [3]
+Flag_START              0x2000'34be     0x1  Data  Gb  App_RAM.o [3]
+Flag_SaveFlash          0x2000'34c1     0x1  Data  Gb  App_RAM.o [3]
+Flag_Second             0x2000'34c7     0x1  Data  Gb  App_RAM.o [3]
+Flag_Ser_Err            0x2000'34d9     0x1  Data  Gb  Main.o [3]
+Flag_SerialFlash        0x2000'34bd     0x1  Data  Gb  App_RAM.o [3]
+Flag_USN                0x2000'34d8     0x1  Data  Gb  Main.o [3]
+Flag_ValidNetwork       0x2000'34cf     0x1  Data  Gb  GPRS.o [3]
+Flag_WriteFile          0x2000'34cc     0x1  Data  Gb  GPRS.o [3]
+Flag_WrongFile          0x2000'34d1     0x1  Data  Gb  GPRS.o [3]
+Flag_WrongIMEI          0x2000'34d0     0x1  Data  Gb  GPRS.o [3]
+Flag_logRST             0x2000'34df     0x1  Data  Gb  stm32f0xx_it.o [3]
+Flag_mSec               0x2000'34c6     0x1  Data  Gb  App_RAM.o [3]
+FlashAddress            0x2000'3494     0x4  Data  Gb  App_RAM.o [3]
+GPIO_DeInit              0x800'2559    0xac  Code  Gb  stm32f0xx_gpio.o [2]
+GPIO_Init                0x800'2605    0xa2  Code  Gb  stm32f0xx_gpio.o [2]
+GPIO_PinAFConfig         0x800'26bd    0x60  Code  Gb  stm32f0xx_gpio.o [2]
+GPRSData                0x2000'3334    0x68  Data  Gb  GPRS.o [3]
+GPRS_Buffer             0x2000'3030   0x1f4  Data  Gb  GPRS.o [3]
+GPRS_Count              0x2000'349c     0x4  Data  Gb  GPRS.o [3]
+GPRS_Module_OFF          0x800'00f5    0x1e  Code  Gb  VTS_Functions.o [3]
+GPRS_Module_ON           0x800'00cf    0x26  Code  Gb  VTS_Functions.o [3]
+GPRS_SendBuffer         0x2000'339c    0x64  Data  Gb  GPRS.o [3]
+GP_Counter              0x2000'34b8     0x2  Data  Gb  App_RAM.o [3]
+Get_CSQ                 0x2000'34c8     0x1  Data  Gb  App_RAM.o [3]
+Get_Firmware             0x800'014d   0x2d2  Code  Gb  VTS_Functions.o [3]
+Get_Firmware_Serial      0x800'0d11   0x1bc  Code  Gb  VTS_Functions.o [3]
+HardFault_Handler        0x800'3255    0x32  Code  Gb  stm32f0xx_it.o [3]
+I2C1_IRQHandler          0x800'493f          Code  Wk  startup_stm32f091.o [1]
+I2C2_IRQHandler          0x800'4941          Code  Wk  startup_stm32f091.o [1]
+IAP_Counter             0x2000'34d4     0x1  Data  Gb  GPRS.o [3]
+IAP_Status              0x2000'34d3     0x1  Data  Gb  GPRS.o [3]
+INIT_APP                 0x800'2ac9   0x400  Code  Gb  App_Init.o [3]
+INIT_BKP                 0x800'3e83    0x14  Code  Gb  Configure_STM32.o [3]
+INIT_GPIO                0x800'3e97    0x9c  Code  Gb  Configure_STM32.o [3]
+INIT_GPRS_Modem          0x800'10f1    0xe2  Code  Gb  GPRS.o [3]
+INIT_IWDG                0x800'406b    0x28  Code  Gb  Configure_STM32.o [3]
+INIT_NVIC                0x800'402f    0x3c  Code  Gb  Configure_STM32.o [3]
+INIT_SysTick             0x800'3f33    0x14  Code  Gb  Configure_STM32.o [3]
+INIT_USART               0x800'3f47    0xe8  Code  Gb  Configure_STM32.o [3]
+INIT_USART_GPRS          0x800'0f6b    0x90  Code  Gb  GPRS.o [3]
+IWDG_Enable              0x800'1ae9     0x8  Code  Gb  stm32f0xx_iwdg.o [2]
+IWDG_ReloadCounter       0x800'1ae1     0x8  Code  Gb  stm32f0xx_iwdg.o [2]
+IWDG_SetPrescaler        0x800'1ad1     0x8  Code  Gb  stm32f0xx_iwdg.o [2]
+IWDG_SetReload           0x800'1ad9     0x8  Code  Gb  stm32f0xx_iwdg.o [2]
+IWDG_WriteAccessCmd      0x800'1ac9     0x8  Code  Gb  stm32f0xx_iwdg.o [2]
+Init_Time               0x2000'0022     0x1  Data  Gb  GPRS.o [3]
+JumpAddress             0x2000'3498     0x4  Data  Gb  App_RAM.o [3]
+Jump_To_Application     0x2000'3488     0x4  Data  Gb  App_RAM.o [3]
+Loc                     0x2000'34b6     0x2  Data  Gb  App_RAM.o [3]
+Modem_NoResp            0x2000'34d7     0x1  Data  Gb  GPRS.o [3]
+Modem_PutString          0x800'1081    0x70  Code  Gb  GPRS.o [3]
+NMI_Handler              0x800'3247     0xe  Code  Gb  stm32f0xx_it.o [3]
+NOLs                    0x2000'34a0     0x4  Data  Gb  VTS_Functions.o [3]
+NVIC_Init                0x800'4111    0x62  Code  Gb  stm32f0xx_misc.o [2]
+NVIC_SetPriority         0x800'3dc9    0x8a  Code  Lc  Configure_STM32.o [3]
+NVIC_SystemReset         0x800'0f59    0x12  Code  Lc  GPRS.o [3]
+NVIC_SystemReset         0x800'38b1    0x12  Code  Lc  Main.o [3]
+NVIC_SystemReset         0x800'3235    0x12  Code  Lc  stm32f0xx_it.o [3]
+NVIC_SystemReset         0x800'00bd    0x12  Code  Lc  VTS_Functions.o [3]
+NoData_Count            0x2000'34d5     0x1  Data  Gb  GPRS.o [3]
+PVD_VDDIO2_IRQHandler    0x800'1b33          Code  Wk  startup_stm32f091.o [1]
+PWR_BackupAccessCmd      0x800'40e5    0x22  Code  Gb  stm32f0xx_pwr.o [2]
+PendSV_Handler           0x800'3289     0x2  Code  Gb  stm32f0xx_it.o [3]
+Program_Byte            0x2000'3434    0x14  Data  Gb  App_RAM.o [3]
+Program_Flash            0x800'0b25   0x146  Code  Gb  VTS_Functions.o [3]
+RCC_AHBPeriphClockCmd    0x800'28fd    0x1c  Code  Gb  stm32f0xx_rcc.o [2]
+RCC_AHBPeriphResetCmd    0x800'2955    0x1c  Code  Gb  stm32f0xx_rcc.o [2]
+RCC_APB1PeriphClockCmd   0x800'2935    0x1c  Code  Gb  stm32f0xx_rcc.o [2]
+RCC_APB1PeriphResetCmd   0x800'298d    0x1c  Code  Gb  stm32f0xx_rcc.o [2]
+RCC_APB2PeriphClockCmd   0x800'2919    0x1c  Code  Gb  stm32f0xx_rcc.o [2]
+RCC_APB2PeriphResetCmd   0x800'2971    0x1c  Code  Gb  stm32f0xx_rcc.o [2]
+RCC_CRS_IRQHandler       0x800'313b          Code  Wk  startup_stm32f091.o [1]
+RCC_ClearITPendingBit    0x800'29c9     0x6  Code  Gb  stm32f0xx_rcc.o [2]
+RCC_ClockSecuritySystemCmd
+                         0x800'271d    0x22  Code  Gb  stm32f0xx_rcc.o [2]
+RCC_GetClocksFreq        0x800'2745   0x1b0  Code  Gb  stm32f0xx_rcc.o [2]
+RTC_IRQHandler           0x800'2a07          Code  Wk  startup_stm32f091.o [1]
+RTC_ReadBackupRegister   0x800'1f49    0x1c  Code  Gb  stm32f0xx_rtc.o [2]
+RTC_WriteBackupRegister
+                         0x800'1f2d    0x1c  Code  Gb  stm32f0xx_rtc.o [2]
+Reg_Error               0x2000'34d6     0x1  Data  Gb  GPRS.o [3]
+Region$$Table$$Base      0x800'4540           --   Gb  - Linker created -
+Region$$Table$$Limit     0x800'4564           --   Gb  - Linker created -
+Reset_Handler            0x800'4371          Code  Wk  startup_stm32f091.o [1]
+Rev_Buffer              0x2000'0024  0x300c  Data  Gb  GPRS.o [3]
+Rev_Count               0x2000'34b4     0x2  Data  Gb  App_RAM.o [3]
+SER_PWD                 0x2000'3464     0xc  Data  Gb  App_Init.o [3]
+SER_USN                 0x2000'3458     0xc  Data  Gb  App_Init.o [3]
+SPI1_IRQHandler          0x800'4943          Code  Wk  startup_stm32f091.o [1]
+SPI2_IRQHandler          0x800'4945          Code  Wk  startup_stm32f091.o [1]
+SPIFlashAddress         0x2000'3490     0x4  Data  Gb  App_RAM.o [3]
+SPI_Cmd                  0x800'31c1    0x1c  Code  Gb  stm32f0xx_spi.o [2]
+SPI_FLASH_BufferRead     0x800'1dfb    0x4e  Code  Gb  SPI_Flash.o [3]
+SPI_FLASH_BufferWrite    0x800'1c87   0x174  Code  Gb  SPI_Flash.o [3]
+SPI_FLASH_Init           0x800'1b35    0xc2  Code  Gb  SPI_Flash.o [3]
+SPI_FLASH_PageWrite      0x800'1c33    0x54  Code  Gb  SPI_Flash.o [3]
+SPI_FLASH_ReadID         0x800'1e4d    0x3e  Code  Gb  SPI_Flash.o [3]
+SPI_FLASH_SectorErase    0x800'1bf7    0x3c  Code  Gb  SPI_Flash.o [3]
+SPI_FLASH_SendByte       0x800'1e95    0x30  Code  Gb  SPI_Flash.o [3]
+SPI_FLASH_WaitForWriteEnd
+                         0x800'1ee5    0x3a  Code  Gb  SPI_Flash.o [3]
+SPI_FLASH_WriteEnable    0x800'1ecd    0x18  Code  Gb  SPI_Flash.o [3]
+SPI_I2S_DeInit           0x800'313d    0x3a  Code  Gb  stm32f0xx_spi.o [2]
+SPI_I2S_GetFlagStatus    0x800'3219    0x16  Code  Gb  stm32f0xx_spi.o [2]
+SPI_Init                 0x800'3177    0x4a  Code  Gb  stm32f0xx_spi.o [2]
+SPI_ReceiveData8         0x800'31f5     0x8  Code  Gb  stm32f0xx_spi.o [2]
+SPI_RxFIFOThresholdConfig
+                         0x800'31dd    0x10  Code  Gb  stm32f0xx_spi.o [2]
+SPI_SendData8            0x800'31ed     0x8  Code  Gb  stm32f0xx_spi.o [2]
+SVC_Handler              0x800'3287     0x2  Code  Gb  stm32f0xx_it.o [3]
+SW_VER                  0x2000'347c     0xc  Data  Gb  App_RAM.o [3]
+Save_Record_Try         0x2000'34c9     0x1  Data  Gb  App_RAM.o [3]
+Sec_Tick                0x2000'0020     0x2  Data  Gb  App_RAM.o [3]
+Send_SMS                 0x800'1201   0x18a  Code  Gb  GPRS.o [3]
+Ser_Buffer              0x2000'3400    0x34  Data  Gb  App_RAM.o [3]
+Serial_PutData_GPRS      0x800'1013    0x40  Code  Gb  GPRS.o [3]
+Serial_PutString_232     0x800'0c79    0x54  Code  Gb  VTS_Functions.o [3]
+Serial_PutString_GPRS    0x800'1053    0x2e  Code  Gb  GPRS.o [3]
+Serial_SendData_GPRS     0x800'0ffb    0x18  Code  Gb  GPRS.o [3]
+SetSysClock              0x800'41f9    0xf0  Code  Lc  system_stm32f0xx.o [1]
+Set_APN                  0x800'13fd   0x1e6  Code  Gb  GPRS.o [3]
+StartAddress            0x2000'348c     0x4  Data  Gb  App_RAM.o [3]
+StoreSPI_Flash           0x800'04ad   0x672  Code  Gb  VTS_Functions.o [3]
+SysTick_Config           0x800'3e53    0x30  Code  Lc  Configure_STM32.o [3]
+SysTick_Handler          0x800'328b    0xaa  Code  Gb  stm32f0xx_it.o [3]
+SystemCoreClock         0x2000'0010     0x4  Data  Gb  system_stm32f0xx.o [1]
+SystemInit               0x800'41a1    0x58  Code  Gb  system_stm32f0xx.o [1]
+TIM14_IRQHandler         0x800'4937          Code  Wk  startup_stm32f091.o [1]
+TIM15_IRQHandler         0x800'4939          Code  Wk  startup_stm32f091.o [1]
+TIM16_IRQHandler         0x800'493b          Code  Wk  startup_stm32f091.o [1]
+TIM17_IRQHandler         0x800'493d          Code  Wk  startup_stm32f091.o [1]
+TIM1_BRK_UP_TRG_COM_IRQHandler
+                         0x800'492b          Code  Wk  startup_stm32f091.o [1]
+TIM1_CC_IRQHandler       0x800'492d          Code  Wk  startup_stm32f091.o [1]
+TIM2_IRQHandler          0x800'492f          Code  Wk  startup_stm32f091.o [1]
+TIM3_IRQHandler          0x800'4931          Code  Wk  startup_stm32f091.o [1]
+TIM6_DAC_IRQHandler      0x800'4933          Code  Wk  startup_stm32f091.o [1]
+TIM7_IRQHandler          0x800'4935          Code  Wk  startup_stm32f091.o [1]
+TSC_IRQHandler           0x800'452b          Code  Wk  startup_stm32f091.o [1]
+TxData                  0x2000'34ba     0x2  Data  Gb  App_RAM.o [3]
+USART1_IRQHandler        0x800'3345   0x15e  Code  Gb  stm32f0xx_it.o [3]
+USART2_IRQHandler        0x800'4947          Code  Wk  startup_stm32f091.o [1]
+USART3_8_IRQHandler      0x800'353d   0x1f0  Code  Gb  stm32f0xx_it.o [3]
+USART_ClearITPendingBit
+                         0x800'254b     0xe  Code  Gb  stm32f0xx_usart.o [2]
+USART_Cmd                0x800'2441    0x1c  Code  Gb  stm32f0xx_usart.o [2]
+USART_DMACmd             0x800'248d    0x18  Code  Gb  stm32f0xx_usart.o [2]
+USART_DeInit             0x800'22ad    0xd6  Code  Gb  stm32f0xx_usart.o [2]
+USART_GetFlagStatus      0x800'24e1    0x18  Code  Gb  stm32f0xx_usart.o [2]
+USART_GetITStatus        0x800'24f9    0x52  Code  Gb  stm32f0xx_usart.o [2]
+USART_ITConfig           0x800'24a5    0x3c  Code  Gb  stm32f0xx_usart.o [2]
+USART_Init               0x800'2383    0xbe  Code  Gb  stm32f0xx_usart.o [2]
+VTS_State               0x2000'34ca     0x1  Data  Gb  App_RAM.o [3]
+WAIT_MODEM_RESP          0x800'15f1    0x7c  Code  Gb  GPRS.o [3]
+WWDG_IRQHandler          0x800'1967          Code  Wk  startup_stm32f091.o [1]
+Wait                    0x2000'0014     0x4  Data  Gb  VTS_Functions.o [3]
+Write_Loc               0x2000'34b2     0x2  Data  Gb  App_RAM.o [3]
+WrnData                 0x2000'34a4     0x4  Data  Gb  VTS_Functions.o [3]
+_PrintfTiny              0x800'2ee3   0x160  Code  Gb  xprintftiny.o [4]
+_SProut                  0x800'194b     0xa  Code  Gb  xsprout.o [4]
+__ICFEDIT_region_RAM_end__ {Abs}
+                        0x2000'7fff           --   Gb  <internal module>
+__ICFEDIT_region_RAM_start__ {Abs}
+                        0x2000'0000           --   Gb  <internal module>
+__aeabi_idiv             0x800'3087          Code  Gb  I32DivModFast.o [5]
+__aeabi_idiv0            0x800'3231          Code  Gb  IntDivZer.o [5]
+__aeabi_idivmod          0x800'3087          Code  Gb  I32DivModFast.o [5]
+__aeabi_memset           0x800'18fd          Code  Gb  ABImemset.o [5]
+__aeabi_uidiv            0x800'308d          Code  Gb  I32DivModFast.o [5]
+__aeabi_uidivmod         0x800'308d          Code  Gb  I32DivModFast.o [5]
+__cmain                  0x800'44ed          Code  Gb  cmain.o [5]
+__exit                   0x800'452d    0x14  Code  Gb  exit.o [6]
+__iar_Memchr             0x800'3045          Code  Gb  memchr.o [5]
+__iar_Memset4_word       0x800'191d          Code  Gb  ABImemset.o [5]
+__iar_Memset_word        0x800'1909          Code  Gb  ABImemset.o [5]
+__iar_Stoul              0x800'1ab1     0xa  Code  Gb  iar_Stoulx.o [4]
+__iar_Stoulx             0x800'1969   0x148  Code  Gb  iar_Stoulx.o [4]
+__iar_Strchr             0x800'1955          Code  Gb  strchr.o [5]
+__iar_close_ttio         0x800'4445    0x2c  Code  Gb  iarttio.o [6]
+__iar_copy_init3         0x800'43e9    0x30  Code  Gb  copy_init3.o [5]
+__iar_data_init3         0x800'44a1    0x28  Code  Gb  data_init.o [5]
+__iar_lookup_ttioh       0x800'4471     0x8  Code  Gb  XShttio.o [4]
+__iar_program_start      0x800'45f9          Code  Gb  cstartup_M.o [5]
+__iar_ttio_handles      0x2000'0018     0x8  Data  Lc  XShttio.o [4]
+__iar_zero_init3         0x800'43ad    0x3c  Code  Gb  zero_init3.o [5]
+__low_level_init         0x800'450f     0x4  Code  Gb  low_level_init.o [4]
+__vector_table           0x800'0000          Data  Gb  startup_stm32f091.o [1]
+_call_main               0x800'44f9          Code  Gb  cmain.o [5]
+_exit                    0x800'451d          Code  Gb  cexit.o [5]
+_exit_2                  0x800'4521          Code  Gb  cexit_2.o [5]
+atoi                     0x800'1abb     0x4  Code  Gb  iar_Stoulx.o [4]
+digits                   0x800'4348    0x28  Data  Lc  iar_Stoulx.o [4]
+exit                     0x800'4513     0x8  Code  Gb  exit.o [4]
+mSec_Delay               0x800'0113    0x18  Code  Gb  VTS_Functions.o [3]
+main                     0x800'38cd   0x486  Code  Gb  Main.o [3]
+memchr                   0x800'3045          Code  Gb  memchr.o [5]
+ndigs                    0x800'4320    0x28  Data  Lc  iar_Stoulx.o [4]
+out                      0x800'2ec9    0x1a  Code  Lc  xprintftiny.o [4]
+respond_time            0x2000'34dd     0x1  Data  Gb  Main.o [3]
+ser_cnt                 0x2000'34e0     0x1  Data  Lc  stm32f0xx_it.o [3]
+sprintf                  0x800'18bd    0x40  Code  Gb  sprintf.o [4]
+strchr                   0x800'1955          Code  Gb  strchr.o [5]
+strcmp                   0x800'2a19          Code  Gb  strcmp.o [5]
+strcpy                   0x800'1849          Code  Gb  strcpy.o [5]
+strlen                   0x800'29ed          Code  Gb  strlen.o [5]
+strstr                   0x800'1b05    0x2e  Code  Gb  strstr.o [4]
+toupper                  0x800'29fb     0xc  Code  Wk  toupper.o [4]
+
+
+[1] = D:\Work\Nippon_Neoway_4G\HTTP_OTA\Debug\Obj\CMSIS_13545061835669826545.dir
+[2] = D:\Work\Nippon_Neoway_4G\HTTP_OTA\Debug\Obj\STM32F0_Lib_9189524066007364531.dir
+[3] = D:\Work\Nippon_Neoway_4G\HTTP_OTA\Debug\Obj\User_App_508936332199231944.dir
+[4] = dl6M_tln.a
+[5] = rt6M_tl.a
+[6] = shb_l.a
+
+  17'594 bytes of readonly  code memory
+   1'168 bytes of readonly  data memory
+  18'914 bytes of readwrite data memory
+
+Errors: none
+Warnings: none
